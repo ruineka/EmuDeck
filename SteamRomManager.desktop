@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Steam Rom Manager
+Exec=/home/gamer/Emulation/tools/srm/Steam-ROM-Manager.AppImage
+Icon=steam
+Terminal=false
+Type=Application
+StartupNotify=false

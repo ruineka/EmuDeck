@@ -1413,7 +1413,7 @@ if [ "$zenity" == true ]; then
 		 	--cancel-label="No" 2>/dev/null
 		ans2=$?
 		if [ $ans2 -eq 0 ]; then
-			qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
+			/usr/bin/steamos-session-select gamescope
 		fi
 		exit
 	else
